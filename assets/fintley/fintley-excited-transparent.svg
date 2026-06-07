@@ -1,0 +1,15 @@
+<svg viewBox="103 259 140 140" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fintley (excited) - Fint Picks mascot, final 2026 design. transparent variant. -->
+  <g>
+    <ellipse cx="174" cy="382" rx="40" ry="6.5" fill="#000000" fill-opacity="0.08"/>
+    <path d="M165 299 L158 280 M183 299 L190 280" stroke="#0A6B60" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+    <circle cx="157" cy="276" r="6.5" fill="#F2C440"/><circle cx="191" cy="276" r="6.5" fill="#F2C440"/>
+    <rect x="132" y="297" width="84" height="66" rx="28" fill="#0FA899"/>
+    <path d="M151 326 Q159 317 167 326" stroke="#0B2540" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+    <path d="M181 326 Q189 317 197 326" stroke="#0B2540" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+    <circle cx="148" cy="338" r="4.5" fill="#FF8073" fill-opacity="0.42"/><circle cx="200" cy="338" r="4.5" fill="#FF8073" fill-opacity="0.42"/>
+    <path d="M163 343 L185 343 Q174 358 163 343 Z" fill="#0B2540" stroke="#0B2540" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M122 302 Q123.3 308.7 130 310 Q123.3 311.3 122 318 Q120.7 311.3 114 310 Q120.7 308.7 122 302 Z" fill="#F2C440"/>
+    <path d="M226 322 Q227 326.5 231.5 327.5 Q227 328.5 226 333 Q225 328.5 220.5 327.5 Q225 326.5 226 322 Z" fill="#F2C440"/>
+  </g>
+</svg>

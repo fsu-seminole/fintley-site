@@ -1,0 +1,14 @@
+<svg viewBox="490 25 140 140" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fintley (happy) - Fint Picks mascot, final 2026 design. dark variant. -->
+  <rect x="490" y="25" width="140" height="140" rx="14" fill="#0B2540"/>
+  <g>
+    <ellipse cx="560" cy="146" rx="38" ry="6" fill="#FFFFFF" fill-opacity="0.10"/>
+    <path d="M551 67 L544 48 M569 67 L576 48" stroke="#0FA899" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+    <circle cx="543" cy="44" r="6.5" fill="#F2C440"/><circle cx="577" cy="44" r="6.5" fill="#F2C440"/>
+    <rect x="518" y="65" width="84" height="66" rx="28" fill="#0FA899"/>
+    <ellipse cx="545" cy="92" rx="10" ry="11.5" fill="#FFFFFF"/><circle cx="545" cy="93" r="5.5" fill="#0B2540"/><circle cx="542.5" cy="90" r="2" fill="#FFFFFF"/>
+    <ellipse cx="575" cy="92" rx="10" ry="11.5" fill="#FFFFFF"/><circle cx="575" cy="93" r="5.5" fill="#0B2540"/><circle cx="572.5" cy="90" r="2" fill="#FFFFFF"/>
+    <circle cx="534" cy="106" r="4.5" fill="#FF8073" fill-opacity="0.42"/><circle cx="586" cy="106" r="4.5" fill="#FF8073" fill-opacity="0.42"/>
+    <path d="M547 114 Q560 124 573 114" stroke="#0B2540" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+  </g>
+</svg>

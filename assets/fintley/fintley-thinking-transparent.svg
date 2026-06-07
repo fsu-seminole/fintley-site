@@ -1,0 +1,12 @@
+<svg viewBox="270 25 140 140" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fintley (thinking) - Fint Picks mascot, final 2026 design. transparent variant. -->
+  <g>
+    <ellipse cx="340" cy="146" rx="38" ry="6" fill="#000000" fill-opacity="0.08"/>
+    <path d="M331 67 L324 48 M349 67 L356 48" stroke="#0A6B60" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+    <circle cx="323" cy="44" r="6.5" fill="#F2C440"/><circle cx="357" cy="44" r="6.5" fill="#F2C440"/>
+    <rect x="298" y="65" width="84" height="66" rx="28" fill="#0FA899"/>
+    <ellipse cx="325" cy="92" rx="10" ry="11.5" fill="#FFFFFF"/><circle cx="322.5" cy="89.5" r="5.5" fill="#0B2540"/><circle cx="320" cy="87" r="2" fill="#FFFFFF"/>
+    <ellipse cx="355" cy="92" rx="10" ry="11.5" fill="#FFFFFF"/><circle cx="352.5" cy="89.5" r="5.5" fill="#0B2540"/><circle cx="350" cy="87" r="2" fill="#FFFFFF"/>
+    <rect x="341" y="114" width="13" height="4.5" rx="2.25" fill="#0B2540"/>
+  </g>
+</svg>
