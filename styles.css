@@ -182,10 +182,13 @@ p { margin: 0 0 1rem; }
   .mood { flex: 0 0 calc(33.33% - 10px); }
 }
 @media (max-width: 520px) {
-  .site-nav { gap: 10px; }
-  .site-nav a { font-size: .82rem; white-space: nowrap; }
-  .brand__name { font-size: 1.1rem; }
-  .btn--sm { padding: 7px 12px; font-size: .8rem; }
+  .site-header { padding: 10px 12px; }
+  .brand { gap: 7px; }
+  .brand__mark { width: 30px; height: 30px; }
+  .site-nav { gap: 9px; }
+  .site-nav a { font-size: .78rem; white-space: nowrap; }
+  .brand__name { font-size: 1.05rem; }
+  .btn--sm { padding: 6px 11px; font-size: .78rem; }
   .hero { padding-top: 20px; padding-bottom: 16px; gap: 20px; }
   .fintley-hero { width: 180px; }
   .hero__glow { width: 190px; }
