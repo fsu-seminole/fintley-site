@@ -1,7 +1,8 @@
 // Fintley — minimal landing-page behavior.
 
-// Keep the footer year current.
-document.getElementById("year").textContent = new Date().getFullYear();
+// Keep the footer year current (the element is absent on some pages).
+const yearEl = document.getElementById("year");
+if (yearEl) yearEl.textContent = new Date().getFullYear();
 
 // Placeholder App Store links: until launch, don't navigate to a dead listing.
 document.querySelectorAll('[data-placeholder="true"]').forEach((el) => {

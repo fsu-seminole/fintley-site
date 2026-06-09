@@ -5,22 +5,51 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Fintley | Real Estate Deal Finder</title>
   <meta name="description" content="Fintley turns any US address into an instant, honest investment appraisal: value, cash flow, comps, flood risk, and Fintley's Forecast, a 1–100 deal score." />
+  <link rel="canonical" href="https://fintley.app/" />
 
-  <!-- Social / Open Graph -->
+  <!-- Social / Open Graph (absolute URLs are required for link previews) -->
   <meta property="og:title" content="Fintley | Real Estate Deal Finder" />
   <meta property="og:description" content="Any address, instantly scored. Meet Fintley's Forecast, a calibrated 1–100 investment score on every property." />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="assets/og-image.png" />
+  <meta property="og:url" content="https://fintley.app/" />
+  <meta property="og:image" content="https://fintley.app/assets/og-image.png" />
+  <meta property="og:image:alt" content="Fintley — any address, instantly scored." />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Fintley | Real Estate Deal Finder" />
+  <meta name="twitter:description" content="Any address, instantly scored. Meet Fintley's Forecast, a calibrated 1–100 investment score on every property." />
+  <meta name="twitter:image" content="https://fintley.app/assets/og-image.png" />
   <meta name="theme-color" content="#0B2540" />
 
   <link rel="icon" type="image/png" href="assets/favicon-256.png" />
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+  <link rel="manifest" href="site.webmanifest" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
+
+  <!-- Structured data: helps search engines show richer app results -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Fintley",
+    "applicationCategory": "FinanceApplication",
+    "operatingSystem": "iOS",
+    "url": "https://fintley.app/",
+    "image": "https://fintley.app/assets/og-image.png",
+    "description": "Fintley turns any US address into an instant, honest investment appraisal: value, cash flow, comps, flood risk, and Fintley's Forecast, a calibrated 1–100 deal score.",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    }
+  }
+  </script>
 </head>
 <body>
+
+  <a class="skip-link" href="#top">Skip to content</a>
 
   <!-- ───── Header ───── -->
   <header class="site-header">
@@ -36,7 +65,7 @@
   </header>
 
   <!-- ───── Hero ───── -->
-  <main id="top">
+  <main id="top" tabindex="-1">
     <section class="hero">
       <div class="hero__copy">
         <p class="eyebrow">Real Estate Deal Finder</p>
@@ -66,7 +95,7 @@
 
       <div class="hero__art" aria-hidden="true">
         <div class="hero__glow"></div>
-        <img class="fintley-hero floaty" src="assets/fintley/fintley-happy-transparent.svg" alt="Fintley, the app's mascot" width="320" height="320" />
+        <img class="fintley-hero floaty" src="assets/fintley/fintley-happy-transparent.svg" alt="Fintley, the app's mascot" width="320" height="320" fetchpriority="high" decoding="async" />
       </div>
     </section>
 
@@ -157,7 +186,7 @@
     </div>
     <p class="footer__fine">
       A screening tool, not a formal appraisal. Estimates are for research only.<br />
-      © <span id="year">2026</span> Fintley. · <a href="privacy/" style="color:inherit">Privacy</a>
+      © <span id="year">2026</span> Fintley. · <a href="privacy/">Privacy</a>
     </p>
   </footer>
 

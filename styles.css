@@ -36,6 +36,19 @@ h2 { font-size: clamp(1.7rem, 3.5vw, 2.5rem); text-align: center; }
 p { margin: 0 0 1rem; }
 .accent { color: var(--sky); }
 
+/* Visible keyboard focus for all interactive elements */
+:focus-visible { outline: 3px solid var(--sky-deep); outline-offset: 2px; border-radius: 4px; }
+main:focus-visible { outline: none; }
+
+/* Skip link — hidden until focused, then pinned to the top-left */
+.skip-link {
+  position: absolute; top: 8px; left: 8px; z-index: 100;
+  transform: translateY(-150%);
+  background: var(--navy); color: #fff; text-decoration: none;
+  padding: 10px 16px; border-radius: 10px; font-weight: 800;
+}
+.skip-link:focus { transform: translateY(0); }
+
 /* ───── Header ───── */
 .site-header {
   position: sticky; top: 0; z-index: 50;
@@ -154,6 +167,7 @@ p { margin: 0 0 1rem; }
 }
 .footer__brand { display: inline-flex; align-items: center; gap: 8px; font-weight: 900; color: var(--navy); }
 .footer__fine { color: var(--muted); font-size: .82rem; margin-top: .6rem; }
+.footer__fine a { color: inherit; }
 
 /* ───── Motion ───── */
 @keyframes floaty {
@@ -165,6 +179,9 @@ p { margin: 0 0 1rem; }
 @media (prefers-reduced-motion: reduce) {
   .floaty { animation: none; }
   html { scroll-behavior: auto; }
+  /* Drop the lift-on-hover micro-interactions too */
+  .btn, .appstore-btn { transition: none; }
+  .btn:hover, .appstore-btn:hover { transform: none; }
 }
 
 /* ───── Responsive ───── */
