@@ -1,7 +1,7 @@
 {
   "name": "Fintley — Real Estate Deal Finder",
   "short_name": "Fintley",
-  "description": "Turn any US address into an instant investment appraisal with Fintley's Forecast, a calibrated 1–100 deal score.",
+  "description": "Quick investment appraisals for US addresses, each scored 1 to 100.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",

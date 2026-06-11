@@ -1,10 +1,7 @@
-// Fintley — minimal landing-page behavior.
-
-// Keep the footer year current (the element is absent on some pages).
 const yearEl = document.getElementById("year");
 if (yearEl) yearEl.textContent = new Date().getFullYear();
 
-// Placeholder App Store links: until launch, don't navigate to a dead listing.
+// store links are placeholders until launch
 document.querySelectorAll('[data-placeholder="true"]').forEach((el) => {
   el.addEventListener("click", (e) => {
     e.preventDefault();
@@ -15,7 +12,6 @@ document.querySelectorAll('[data-placeholder="true"]').forEach((el) => {
   });
 });
 
-// Playful touch: tap the hero Fintley to make him wink briefly.
 const hero = document.querySelector(".fintley-hero");
 if (hero && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
   const base = hero.getAttribute("src");
