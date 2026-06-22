@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /WAITLIST-SETUP.md
 
 Sitemap: https://fintley.app/sitemap.xml
