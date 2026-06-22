@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; script-src 'self' https://challenges.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self' https://challenges.cloudflare.com; frame-src https://challenges.cloudflare.com; form-action 'self'; upgrade-insecure-requests" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
   <title>Privacy Policy | Fintley</title>
   <meta name="description" content="How Fintley handles your data. Searches are anonymous, reports stay on your device, and there are no accounts or ads." />
   <meta name="robots" content="index, follow" />
@@ -18,7 +20,7 @@
   <link rel="manifest" href="../site.webmanifest" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="../styles.css" />
   <style>
     .legal {
@@ -32,7 +34,7 @@
     .legal p, .legal li { color: #2c3e50; line-height: 1.65; font-size: 1rem; }
     .legal ul { padding-left: 1.3rem; margin: .6rem 0; }
     .legal li { margin: .35rem 0; }
-    .legal a { color: var(--sky-deep); font-weight: 700; }
+    .legal a { color: var(--blue); font-weight: 700; }
   </style>
 </head>
 <body>
@@ -44,10 +46,12 @@
       <img class="brand__mark" src="../assets/fintley/fintley-neutral-transparent.svg" alt="" width="40" height="40" />
       <span class="brand__name">Fintley</span>
     </a>
-    <nav class="site-nav">
+    <nav class="site-nav" aria-label="Primary">
       <a href="../#how">How it works</a>
-      <a href="../#fintley">Meet Fintley</a>
-      <a class="btn btn--sm" href="../#download">Get the app</a>
+      <a href="../#forecast">The Forecast</a>
+      <a href="../#deal-lab">Deal Lab</a>
+      <a href="../#pricing">Pricing</a>
+      <a class="btn btn--sm" href="../#waitlist">Join the waitlist</a>
     </nav>
   </header>
 
@@ -86,7 +90,7 @@
     <h2>Our data providers</h2>
     <p>To build a report, our server queries a few third-party sources:</p>
     <ul>
-      <li><strong>RentCast</strong> for property records, valuations, rent estimates, and comparable sales (<a href="https://www.rentcast.io/privacy" rel="noopener">their policy</a>)</li>
+      <li>A licensed property-data provider for property records, valuations, rent estimates, and comparable sales</li>
       <li><strong>US Census Bureau</strong> for neighborhood demographics</li>
       <li><strong>FEMA</strong> for flood-zone maps</li>
       <li><strong>Federal Reserve (FRED)</strong> for current mortgage rates</li>
@@ -131,13 +135,25 @@
   </main>
 
   <footer class="site-footer">
-    <div class="footer__brand">
-      <img src="../assets/fintley/fintley-neutral-transparent.svg" alt="" width="28" height="28" loading="lazy" />
-      <span>Fintley</span>
+    <div class="footer__top">
+      <a class="brand" href="../" aria-label="Fintley home">
+        <img class="brand__mark" src="../assets/fintley/fintley-neutral-transparent.svg" alt="" width="32" height="32" />
+        <span class="brand__name">Fintley</span>
+      </a>
+      <nav class="footer__nav" aria-label="Footer">
+        <a href="../#how">How it works</a>
+        <a href="../#forecast">The Forecast</a>
+        <a href="../#deal-lab">Deal Lab</a>
+        <a href="../#pricing">Pricing</a>
+        <a href="../#faq">FAQ</a>
+        <a href="./">Privacy</a>
+        <a href="mailto:hello@fintley.app">Contact</a>
+      </nav>
     </div>
     <p class="footer__fine">
-      Estimates are for research and aren't formal appraisals.<br />
-      © <span id="year">2026</span> Fintley · <a href="./">Privacy</a>
+      Estimates are for research and aren't formal appraisals. Nothing in Fintley
+      is financial, legal, or investment advice.<br />
+      © <span id="year">2026</span> Fintley · Made for real-estate investors.
     </p>
   </footer>
 
